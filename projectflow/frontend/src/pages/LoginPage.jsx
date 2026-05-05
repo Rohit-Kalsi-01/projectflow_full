@@ -33,7 +33,7 @@ export default function LoginPage() {
           <span style={{ fontSize: 22, fontWeight: 800, letterSpacing: '-0.5px' }}>ProjectFlow</span>
         </div>
         <h1 className="auth-title">Welcome back</h1>
-        <p className="auth-subtitle">Sign in to continue to your workspace</p>
+        <p className="auth-subtitle">Sign in t0 continue to your workspace</p>
 
         <form className="auth-form" onSubmit={handleSubmit}>
           {error && <div style={{ background: 'rgba(243,139,168,0.1)', border: '1px solid var(--red)', borderRadius: 8, padding: '10px 12px', fontSize: 13, color: 'var(--red)' }}>{error}</div>}
